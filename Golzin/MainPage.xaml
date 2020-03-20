@@ -1,0 +1,102 @@
+﻿<Page
+    x:Class="Golzin.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Golzin"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <!--
+    <Grid x:Name="elementToRender" Margin="0, -25, 0, 0" Grid.ColumnSpan="4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="345*"/>
+            <ColumnDefinition Width="26*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="29*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/SplashScreen.scale-240.png"/>
+        </Grid.Background>
+        <WebView Name="WebViewControl"
+                 Margin="0"
+                 HorizontalAlignment="Stretch"
+                 VerticalAlignment="Stretch"
+                 NavigationCompleted="WebViewControl_NavigationCompleted" Grid.ColumnSpan="4" >
+        </WebView>
+
+        <Image Name="startLogo" 
+               Margin="0"
+               HorizontalAlignment="Stretch"
+               VerticalAlignment="Stretch"
+               Source="/Assets/SplashScreen.scale-240.png" Grid.ColumnSpan="4">
+        </Image>
+       */Margin="0,-25,-0.001,0"*/
+
+        <Grid >
+        <Image x:Name="alpha" 
+                   Width="200"
+                   Height="200"
+                   Source="Assets/logo.png"
+                   HorizontalAlignment="Stretch"
+                   VerticalAlignment="Stretch" >
+        </Image>
+    </Grid>
+        
+    </Grid>
+    </Grid.Background>
+    -->
+
+    <Grid Margin="0, 0, 0, 0">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/SplashScreen.png"/>
+        </Grid.Background>
+        
+        <WebView Name="WebViewControl"
+                 HorizontalAlignment="Stretch"
+                 VerticalAlignment="Stretch"
+                 NavigationCompleted="WebViewControl_NavigationCompleted">
+        </WebView>
+
+        <Image x:Name="alpha" 
+               Width="100"
+               Height="200"
+               Source="Assets/logo.png"
+               HorizontalAlignment="Stretch"
+               VerticalAlignment="Stretch" 
+               Margin="0,0,290,440"
+               Opacity="0.05">
+        </Image>
+
+        <Image Name="startLogo" 
+               HorizontalAlignment="Stretch"
+               VerticalAlignment="Stretch"
+               Opacity="1"
+               Source="Assets/SplashScreen.png">
+        </Image>
+    </Grid>
+
+    <!--<Page.BottomAppBar>
+        <CommandBar ClosedDisplayMode="Minimal">
+            <CommandBar.PrimaryCommands>
+                <AppBarButton
+                    IsEnabled="False"
+                    x:Name="ForwardAppBarButton"
+                    x:Uid="ForwardAppBarButton"
+                    Click="ForwardAppBarButton_Click"
+                    Icon="Forward"
+                    Label="forward"/>
+            </CommandBar.PrimaryCommands>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton
+                    IsEnabled="False"
+                    x:Name="HomeAppBarButton"
+                    x:Uid="HomeAppBarButton"
+                    Click="HomeAppBarButton_Click"
+                    Label="home"/>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>-->
+
+</Page>
