@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1.0, user-scalable=yes, minimal-ui">
-    <!--  #11BF88 // #064e37 // #013322 // rbga(200, 40, 25, 1) // #99df0a-->
     
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -20,73 +19,198 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <meta name="msapplication-TileColor" content="#064e37">
-    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-    <meta name="msapplication-navbutton-color" content="#064e37">
     <link rel="manifest" href="favicon/manifest.json">
-    <meta name="theme-color" content="#064e37">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    
+    <meta name="msapplication-TileColor" content="#013322">
+    <meta name="msapplication-navbutton-color" content="#013322">
+    <meta name="theme-color" content="#013322">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Golzin'</title>
     
+    <title>FutGol</title>    
     
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js"></script>-->
     <script src="font/webfont.js"></script>
     <script>
       WebFont.load({
         custom: {
-          families: ['scoreboard2', 'scoreboard']
+          families: ['scoreboard']
         }
       });
     </script>
     
-    <script src="src/phaser.js"></script>
-        <script type="text/javascript" src="src/register.js"></script>
-        <script type="text/javascript" src="src/background.js"></script>
-        <script type="text/javascript" src="src/posts.js"></script>
-        <script type="text/javascript" src="src/ball.js"></script>
-        <script type="text/javascript" src="src/hud.js"></script>
-        <script type="text/javascript" src="src/defender.js"></script>
-        <script type="text/javascript" src="src/mainMenu.js"></script>
-        <script type="text/javascript" src="src/pause.js"></script>
-        <script type="text/javascript" src="src/sound.js"></script>
-        <script type="text/javascript" src="src/config.js"></script>
-        <script type="text/javascript" src="src/gameOver.js"></script>
-    <script src="src/main.js"></script>
-    
     <style type="text/css">
-        @font-face {font-family: 'scoreboard2'; src: url(font/scoreboard2.ttf); }
         @font-face {font-family: 'scoreboard'; src: url(font/scoreboard.ttf); }
-        /** {font-family: scoreboard2, sans-serif;}*/
-        html{overflow-y:hidden;overflow-x:hidden;}
-        body {margin: 0%; padding: 0%; background: #013322; background-image: url("imgs/gress.png"); background-repeat: repeat;}
+        html { overflow-y: hidden; overflow-x: hidden; }
+        body { margin: 0%; padding: 0%; background: #013322; }
+        #myCanvas{
+            -webkit-transform: translate3d(0,0,0);
+            -moz-transform: translate3d(0,0,0);
+            -ms-transform: translate3d(0,0,0);
+            -o-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+        }
+
+        #topper {
+            position: absolute;
+            width: 100%;
+            height: 20%;
+            top: 0;
+            z-index: 0;
+            /*background: #020F28;*/
+        }
+        
+        #botter {
+            position: absolute;
+            width: 100%;
+            height: 80%;
+            top: 20%;
+            z-index: -1;
+            background: #013322;
+            
+            -webkit-transform: scale(2.6);
+            -moz-transform: scale(2.6);
+            -ms-transform: scale(2.6);
+            -o-transform: scale(2.6);
+            transform: scale(2.6);
+        }
+        
+        #maskalpha {
+            position: absolute;
+            width: 100%;
+            height: 80%;
+            top: 20%;
+            z-index: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            
+        }
+
+        #closebuttonPainel {
+            background: darkgray;
+            border-radius: 50%;
+            font:bold 24px arial;
+            padding: 2% 4% 2% 4%;
+            color:black;
+            text-decoration: none;
+            position:fixed;
+            z-index:1000;
+            top:1%;
+            right:5%;
+            text-transform:uppercase;
+            border:2px solid black;
+            cursor:pointer;
+            display: none;
+        }
+
+        #closebuttonBanner {
+            background: darkgray;
+            font:bold 24px arial;
+            padding: 2% 2% 2% 2%;
+            color:black;
+            text-decoration: none;
+            position:fixed;
+            z-index:1000;
+            bottom:0px;
+            right:0px;
+            text-transform:uppercase;
+            border:2px solid black;
+            cursor:pointer;
+            display: none;
+        }
+
+        .banner{
+            position: absolute;
+            bottom: 0;
+            z-index: 999;
+            display: none;
+        }
+
+        .interstitial{
+            z-index: 999;
+            display: none;
+        }
+
+        #ap_iframe{
+            display: none;
+        }
     </style>
+    
+   
+
+    <!--App Banner #1 - Auto Stretching - work-->
+    <!--<script type="text/javascript" src="http://ad.leadbolt.net/show_app_ad.js?section_id=500781023"></script>-->
+    <!--App Banner #2 - Auto Fill-->
+    <!--<script type="text/javascript" src="http://ad.leadbolt.net/show_app_ad.js?section_id=573756212" ></script>-->
+
+    
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/phaser.js"></script>
+    <script src="libs/FileSaver.js"></script>
+        <script src="srcs/register.js"></script>
+        <script src="srcs/sky.js"></script>
+        <script src="srcs/background.js"></script>
+        <script src="srcs/ball.js"></script>
+        <script src="srcs/posts.js"></script>
+        <script src="srcs/defender.js"></script>
+        <script src="srcs/main_menu.js"></script>
+        <script src="srcs/in_game.js"></script>
+        <script src="srcs/trophy.js"></script>
+        <script src="srcs/store.js"></script>
+        <script src="srcs/ballStoreItens.js"></script>
+        <script src="srcs/fieldStoreItens.js"></script>
+        <script src="srcs/postStoreItens.js"></script>
+        <script src="srcs/defStoreItens.js"></script>
+        <script src="srcs/coin.js"></script>
+        <!--<script src="srcs/sounds.js"></script>-->
+        <script src="srcs/game_over.js"></script>
+    <script src="srcs/main.js"></script>
+
 </head>
 
 <body>
+    <div id="topper"></div>
+    <div id="botter"></div>
+    <div id="maskalpha"></div>
+    <script>
+            if (document.getElementById("ap_iframe")){
 
-    <!--<img id="output" />-->
-    <!--download-->
-    <!--<a id="download">Download as image</a>
-    <script type="text/javascript">
-		function myFunction() {
-            var canvas = document.getElementsByTagName("canvas")[0].setAttribute("id", "canvas");
-            document.getElementById('download').addEventListener('click', function() {
-			    downloadCanvas(this, 'canvas', 'test.png');
-			}, false);
-        }
-        function downloadCanvas(link, canvasId, filename) {
-            link.href = document.getElementById(canvasId).toDataURL();
-            link.download = filename;
-        }
+                $('[id="ap_iframe"]').each(function(){
+                  var ids = $('[id="'+this.id+'"]');
+
+                  if(ids.length>1 && ids[0]==this) {
+                    console.warn('Multiple IDs #'+this.id);
+
+                    var i;
+                    for(i = 0; i < ids.length; i++){
+                        document.getElementById("ap_iframe").setAttribute("id", "testId"+i);
+                        console.log("testId"+i);
+                    }
+                  }
+
+                });
+
+
+                if(document.getElementById("testId0").clientHeight <= 120){
+                    document.getElementById("testId0").setAttribute("class", "banner");
+                    console.log("banner : " + document.getElementById("testId0").clientHeight);
+                } else {
+                    document.getElementById("testId0").setAttribute("class", "interstitial");
+                    document.body.innerHTML += "<div id='closebuttonPainel'>X</div>";
+                    console.log("interstitial : " + document.getElementById("testId0").clientHeight);
+                }
+
+                if(document.getElementById("testId1").clientHeight <= 120){
+                    document.getElementById("testId1").setAttribute("class", "banner");
+                    console.log("banner : " + document.getElementById("testId1").clientHeight);
+                } else {
+                    document.getElementById("testId1").setAttribute("class", "interstitial");
+                    document.body.innerHTML += "<div id='closebuttonPainel'>X</div>";
+                    console.log("interstitial : " + document.getElementById("testId1").clientHeight);
+                }
+            }
+        
+        document.getElementById('topper').style.background = 'black';
+        document.getElementById('botter').style.background = 'black';
     </script>
-    
-    <script type="text/javascript">
-		function myFunction() {
-            var canvas = document.getElementsByTagName("canvas")[0].setAttribute("id", "canvasId");
-        }
-    </script>-->
-    
 </body>
-
 </html>
