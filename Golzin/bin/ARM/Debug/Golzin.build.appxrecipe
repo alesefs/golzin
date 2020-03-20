@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ALESSANDRO</Machine>
+    <WindowsUser>alese</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|ARM</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <PackageIdentityName>93f6a926-29bf-4342-9626-23772c2dc0f8</PackageIdentityName>
+    <PackageIdentityPublisher>CN=alese</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\obj\ARM\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\bin\ARM\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\bin\ARM\Debug\Golzin.exe">
+      <PackagePath>Golzin.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\Assets\pic.png">
+      <PackagePath>Assets\pic.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\android-icon-144x144.png">
+      <PackagePath>www\favicon\android-icon-144x144.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\android-icon-192x192.png">
+      <PackagePath>www\favicon\android-icon-192x192.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\android-icon-36x36.png">
+      <PackagePath>www\favicon\android-icon-36x36.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\android-icon-48x48.png">
+      <PackagePath>www\favicon\android-icon-48x48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\android-icon-72x72.png">
+      <PackagePath>www\favicon\android-icon-72x72.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\android-icon-96x96.png">
+      <PackagePath>www\favicon\android-icon-96x96.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\apple-icon-114x114.png">
+      <PackagePath>www\favicon\apple-icon-114x114.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\apple-icon-120x120.png">
+      <PackagePath>www\favicon\apple-icon-120x120.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\apple-icon-144x144.png">
+      <PackagePath>www\favicon\apple-icon-144x144.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\apple-icon-152x152.png">
+      <PackagePath>www\favicon\apple-icon-152x152.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\apple-icon-180x180.png">
+      <PackagePath>www\favicon\apple-icon-180x180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\apple-icon-57x57.png">
+      <PackagePath>www\favicon\apple-icon-57x57.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\apple-icon-60x60.png">
+      <PackagePath>www\favicon\apple-icon-60x60.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\apple-icon-72x72.png">
+      <PackagePath>www\favicon\apple-icon-72x72.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\apple-icon-76x76.png">
+      <PackagePath>www\favicon\apple-icon-76x76.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\apple-icon-precomposed.png">
+      <PackagePath>www\favicon\apple-icon-precomposed.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\apple-icon.png">
+      <PackagePath>www\favicon\apple-icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\favicon-16x16.png">
+      <PackagePath>www\favicon\favicon-16x16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\favicon-32x32.png">
+      <PackagePath>www\favicon\favicon-32x32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\favicon-96x96.png">
+      <PackagePath>www\favicon\favicon-96x96.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\ms-icon-144x144.png">
+      <PackagePath>www\favicon\ms-icon-144x144.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\ms-icon-150x150.png">
+      <PackagePath>www\favicon\ms-icon-150x150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\ms-icon-310x310.png">
+      <PackagePath>www\favicon\ms-icon-310x310.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\ms-icon-70x70.png">
+      <PackagePath>www\favicon\ms-icon-70x70.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\imgs\26bd.png">
+      <PackagePath>www\imgs\26bd.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\imgs\ball-sprite2.png">
+      <PackagePath>www\imgs\ball-sprite2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\imgs\ball-test2.png">
+      <PackagePath>www\imgs\ball-test2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\imgs\ball-tester.png">
+      <PackagePath>www\imgs\ball-tester.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\imgs\btn175x70--87.5x70.png">
+      <PackagePath>www\imgs\btn175x70--87.5x70.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\imgs\defensor.png">
+      <PackagePath>www\imgs\defensor.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\imgs\full.png">
+      <PackagePath>www\imgs\full.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\imgs\gress.png">
+      <PackagePath>www\imgs\gress.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\imgs\hud.png">
+      <PackagePath>www\imgs\hud.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\imgs\logo-in.png">
+      <PackagePath>www\imgs\logo-in.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\imgs\minipost.png">
+      <PackagePath>www\imgs\minipost.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\imgs\null.png">
+      <PackagePath>www\imgs\null.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\imgs\swipe-finger.png">
+      <PackagePath>www\imgs\swipe-finger.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\imgs\viish.png">
+      <PackagePath>www\imgs\viish.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\Assets\pic.jpg">
+      <PackagePath>Assets\pic.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\Html\css\phone.css">
+      <PackagePath>Html\css\phone.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\Html\index.html">
+      <PackagePath>Html\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\teste.html">
+      <PackagePath>www\teste.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\new.html">
+      <PackagePath>www\new.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\browserconfig.xml">
+      <PackagePath>www\favicon\browserconfig.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\favicon\favicon.ico">
+      <PackagePath>www\favicon\favicon.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\font\webfont.js">
+      <PackagePath>www\font\webfont.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\src\jquery.min.js">
+      <PackagePath>www\src\jquery.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\src\background.js">
+      <PackagePath>www\src\background.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\src\ball.js">
+      <PackagePath>www\src\ball.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\src\canvas2image.js">
+      <PackagePath>www\src\canvas2image.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\src\config.js">
+      <PackagePath>www\src\config.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\src\defender.js">
+      <PackagePath>www\src\defender.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\src\gameOver.js">
+      <PackagePath>www\src\gameOver.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\src\hud.js">
+      <PackagePath>www\src\hud.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\src\main.js">
+      <PackagePath>www\src\main.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\src\mainMenu.js">
+      <PackagePath>www\src\mainMenu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\src\pause.js">
+      <PackagePath>www\src\pause.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\src\phaser.js">
+      <PackagePath>www\src\phaser.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\src\phaser261.js">
+      <PackagePath>www\src\phaser261.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\src\posts.js">
+      <PackagePath>www\src\posts.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\src\register.js">
+      <PackagePath>www\src\register.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\src\sound.js">
+      <PackagePath>www\src\sound.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\swipe.js">
+      <PackagePath>www\swipe.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\sounds\bark.mp3">
+      <PackagePath>www\sounds\bark.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\sounds\goal_.mp3">
+      <PackagePath>www\sounds\goal_.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\sounds\gool.mp3">
+      <PackagePath>www\sounds\gool.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\sounds\bark.ogg">
+      <PackagePath>www\sounds\bark.ogg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\sounds\goal_.ogg">
+      <PackagePath>www\sounds\goal_.ogg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\sounds\goal_.aac">
+      <PackagePath>www\sounds\goal_.aac</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\sounds\goal_.wav">
+      <PackagePath>www\sounds\goal_.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\font\scoreboard2.ttf">
+      <PackagePath>www\font\scoreboard2.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\www\font\scoreboard.ttf">
+      <PackagePath>www\font\scoreboard.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\bin\ARM\Debug\Golzin.xr.xml">
+      <PackagePath>Golzin.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\bin\ARM\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\bin\ARM\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alese\Documents\Visual Studio 2015\Projects\Golzin\Golzin\bin\ARM\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
